@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/production-build/static/css/main.6eda372a.css",
+    "main.js": "/production-build/static/js/main.cb13c1a4.js",
+    "static/media/TH.png": "/production-build/static/media/TH.057e364ee3a9dc1b06c1.png",
+    "static/media/ME.jpeg": "/production-build/static/media/ME.c54af8853f5b7762d331.jpeg",
+    "static/media/SmartIH1.jpg": "/production-build/static/media/SmartIH1.920f5ac7bd6621c9be33.jpg",
+    "static/media/RV.jpeg": "/production-build/static/media/RV.c2350e3cfd42cd7e62ff.jpeg",
+    "static/media/FinalResults.jpeg": "/production-build/static/media/FinalResults.6f34c843f13cc0c7962a.jpeg",
+    "static/media/Timeline3.jpeg": "/production-build/static/media/Timeline3.719529fb6d81e75d2196.jpeg",
+    "static/media/Timeline0.jpeg": "/production-build/static/media/Timeline0.d4c885d63456635f673f.jpeg",
+    "static/media/SmartH2.jpg": "/production-build/static/media/SmartH2.d68727b4a5c800b887ec.jpg",
+    "static/media/Kudos.jpg": "/production-build/static/media/Kudos.b0dbeda6bb6c1992910e.jpg",
+    "static/media/Timeline1.jpeg": "/production-build/static/media/Timeline1.5b483c3e6a591588c08b.jpeg",
+    "static/media/RK_Logo.jpg": "/production-build/static/media/RK_Logo.55b4c0816e123b2b4cc5.jpg",
+    "static/media/Canva.jpg": "/production-build/static/media/Canva.0486c792208cc15160fa.jpg",
+    "static/media/GENAI.jpg": "/production-build/static/media/GENAI.73a8b2c8c713a469cb32.jpg",
+    "static/media/PinnacleAward.jpg": "/production-build/static/media/PinnacleAward.5a97b10641f0f411e801.jpg",
+    "index.html": "/production-build/index.html",
+    "main.6eda372a.css.map": "/production-build/static/css/main.6eda372a.css.map",
+    "main.cb13c1a4.js.map": "/production-build/static/js/main.cb13c1a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6eda372a.css",
+    "static/js/main.cb13c1a4.js"
+  ]
+}
