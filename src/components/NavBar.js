@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
+  const [open, setOpen] = useState(false);
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light shadow-sm navbar'>
       <div className='container'>
@@ -12,9 +13,15 @@ function Navbar() {
           to='/'>
           Raveena
         </Link>
+        <button
+          className='sm:hidden'
+          onClick={() => setOpen(!open)}></button>
         <div className='collapse navbar-collapse'>
-          <ul className='navbar-nav ms-auto'>
-            <li className='nav-item'>
+          <ul className={`sm:flex sm:space-x-4 ${open ? 'block' : 'hidden'}`}>
+            open && (
+            <li
+              onClick={() => setOpen(!open)}
+              className='w-full text-left sm:w-auto'>
               <Link
                 className='nav-link'
                 to='/achievements'>
@@ -42,6 +49,7 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+            )
           </ul>
         </div>
       </div>

@@ -27,6 +27,7 @@ const Body = () => {
           src={RaveenaKholia}
           alt='Raveena Kholia'
           style={{ maxWidth: '800px' }}
+          className='Raveena'
         />
       </div>
       <div className='profile-section '>

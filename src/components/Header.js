@@ -18,6 +18,7 @@ const Header = () => {
         <span className='fw-bold fs-5'>Raveena Kholia</span>
       </Link>
 
+      {/* This button now works entirely with Bootstrap's data attributes */}
       <button
         className='navbar-toggler'
         type='button'
@@ -29,6 +30,7 @@ const Header = () => {
         <span className='navbar-toggler-icon'></span>
       </button>
 
+      {/* Bootstrap will automatically add the 'show' class to this div when the button is clicked */}
       <div
         className='collapse navbar-collapse justify-content-end'
         id='navbarNav'>
@@ -47,11 +49,13 @@ const Header = () => {
               Smart India Hackathon
             </Link>
           </li>
+
           <Link
             to='/ThreadedLegacy'
             className='nav-link'>
             Threaded Legacy{' '}
           </Link>
+
           <li className='nav-item'>
             <Link
               to='/projects'
@@ -66,6 +70,7 @@ const Header = () => {
               About Me
             </Link>
           </li>
+
           <li className='nav-item'>
             <Link
               to='/contact'

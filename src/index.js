@@ -15,6 +15,8 @@ import Achievements from './components/Achievements';
 import Projects from './components/Projets';
 import SmartIndiaHackathon from './components/SmartIndiaHackathon';
 import ThreadedLegacy from './components/Bussiness/ThreadedLegacy'; // Ensure this path is correct
+import './App.css'; // optional, for global styles
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 const AppLayout = () => {
   return (
     <div className='app'>
