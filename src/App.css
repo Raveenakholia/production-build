@@ -47,3 +47,11 @@
     max-width: 300px !important;
   }
 }
+
+@media (max-width: 768px) {
+  img.cover {
+    height: auto !important; /* let it scale */
+    max-height: 60vh; /* optional: prevents it from becoming too tall */
+    object-fit: contain; /* or 'cover', depending on your design */
+  }
+}

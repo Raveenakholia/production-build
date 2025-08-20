@@ -122,7 +122,7 @@ export default function SmartIndiaHackathon({
               <img
                 src={Smarth1}
                 alt='cover'
-                className='object-cover w-full h-full'
+                className='w-100 vh-100 object-fit-cover'
               />
             </div>
           </div>
@@ -189,19 +189,34 @@ export default function SmartIndiaHackathon({
               src={T0}
               alt={'gallery-0'}
               className='object-cover w-full h-full'
-              style={{ width: '350px', height: '250px' }}
+              style={{
+                width: '350px',
+                height: '250px',
+                marginLeft: '10px',
+                marginBottom: '10px',
+              }}
             />
             <img
               src={Smarth2}
               alt='gallery-1'
               className='object-cover w-full h-full'
-              style={{ width: '350px', height: '250px' }}
+              style={{
+                width: '350px',
+                height: '250px',
+                marginLeft: '10px',
+                marginBottom: '10px',
+              }}
             />
             <img
               src={T3}
               alt='gallery-2'
               className='object-cover w-full h-full'
-              style={{ width: '550px', height: '250px' }}
+              style={{
+                width: '350px',
+                height: '250px',
+                marginLeft: '10px',
+                marginBottom: '10px',
+              }}
             />
           </div>
         </section>
@@ -220,7 +235,7 @@ export default function SmartIndiaHackathon({
             <img
               src={FinalResults}
               alt='cover'
-              className='object-cover w-full h-full'
+              className='w-100 vh-100 object-fit-cover'
             />
           </div>
         </div>
